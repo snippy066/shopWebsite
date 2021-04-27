@@ -31,6 +31,10 @@
           text-align: center;
           padding: 0px;
         }
+        
+        html{
+            height: 100%;
+        }
 
     </style>
 </head>
@@ -83,6 +87,9 @@
 </nav>
         <!--nav bar ending-->
       
+
+      <div style="background-image:linear-gradient(#F0FFF0,#70DB93);
+            background-repeat:no-repeat;height:100%;width:100%"></div>
         </div>
 
 
