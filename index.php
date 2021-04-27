@@ -142,6 +142,7 @@
   </a>
 </div>
         <!--coursel end-->
+        <form action="registration.php" class="p-2 border border-danger shadow" method="post" enctype="multipart/form-data"  >
       <div class="modal-body">
         <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -156,16 +157,17 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <a type="button" class="btn btn-primary" href="registration.php" name="submit">Submit</a>
+        <button type="submit" name="submit" class="btn btn-outline-success btn-sm">SUBMIT</button>
       </div>
     </div>
   </div>
 </div>
+      </form>
 <!--modal ending-->
 <!-- validating email -->
 <?php 
  include("dbcon.php");
- //session_start();
+ session_start();
  
 
 ?>
