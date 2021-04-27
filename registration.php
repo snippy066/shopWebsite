@@ -37,7 +37,16 @@ include("dbcon.php");
 session_start();
 
 if(isset($_POST['sumit'])){
-    
+    extract($_POST);
+    $query="select from staff where email='$_signMail'";
+    $x=mysqli_query($con,$query);
+    if(mysqli_num_rows($x)>0){
+        $_SESSION['error']="Something went wrong!! Email already exists";
+        header("location:index.php");
+    }
+    else{
+
+    }
 }
 
 ?>
