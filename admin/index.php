@@ -88,10 +88,19 @@
         <!--nav bar ending-->
       
 
-      <div style="background-image:linear-gradient(#F0FFF0,#70DB93);
-            background-repeat:no-repeat;height:100%;width:100%"></div>
-        </div>
+        <div style="width:100%; height:560px; background-image:linear-gradient(#F0FFF0,	#00A36C);
+        background-repeat:no-repeat;"></div>
+    <!--footer-->
+    <footer class="text-center text-dark" style="background-image:linear-gradient(#F0FFF0,#FFFAFA)">
+    
 
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-image:linear-gradient(#F0FFF0,#FFFAFA)">
+      © 2020 Copyright:
+      <a class="text-dark" href="">Snippy</a>
+    </div>
+    <!-- Copyright -->
+    </footer>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
