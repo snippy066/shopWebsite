@@ -145,11 +145,11 @@
       <div class="modal-body">
         <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com" name="signMail">
         </div>
         <div class="mb-3">
         <label for="inputPassword" class="col-form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword" placeholder="password">
+        <input type="password" class="form-control" id="inputPassword" placeholder="password" name="signPass">
         </div>
         
         <h6 Style="text-align:center">Already Have an Account? <a href="login.php">LOGIN</a></h6>
