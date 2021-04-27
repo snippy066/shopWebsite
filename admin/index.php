@@ -48,34 +48,34 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Add Members</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">price</a>
+          <a class="nav-link" href="#">Verify Members</a>
         </li>
         
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Country
+          Status
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">India</a>
-          <a class="dropdown-item" href="#">USA</a>
+          <a class="dropdown-item" href="#">View Members</a>
+          <a class="dropdown-item" href="#">Block Members</a>
           <a class="dropdown-item" href="#">Other</a>
         </div>
       </li>
        
       </ul>
-      <form class="d-flex justify-content-between" >
+      <!-- <form class="d-flex justify-content-between" >
         <input class="form-control me-2" type="search" placeholder="Search items...." aria-label="Search" style="width:450px;margin-left:10px;">
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> -->
       <ul class="navbar-nav">
     <li class="nav-item" style="margin-right:5px;margin-left:60px">
-        <a class="nav-link btn btn-outline-primary" data-toggle="modal" data-target="#registration" >SIGN IN</a>
+        <a class="nav-link btn btn-outline-primary" data-toggle="modal" data-target="#registration" >LOGOUT</a>
       </li>
     <li class="nav-item" style="margin-right:10px">
-        <a class="nav-link btn btn-outline-danger" href="login.php">LOGIN</a>
+        <a class="nav-link btn btn-outline-danger" href="login.php">ChangePassword</a>
       </li>
       </ul>
     </div>
